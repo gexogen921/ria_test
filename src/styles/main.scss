@@ -22,7 +22,8 @@ $white: #ffffff;
   font-size: 12px;
   font-weight: 100;
   padding: 0px;
-  margin-left: -55px;
+  margin-left: 0;
+  float: left;
 }
 
 .text-telefon {
@@ -30,6 +31,7 @@ $white: #ffffff;
   border-bottom: 1px #256799 dashed;
   font-weight: 100;
   font-size: 12px;
+  float: right;
 }
 
 .text-bolt-top {
@@ -58,7 +60,7 @@ $white: #ffffff;
 hr {
   background-color: #d7442b;
   height: 1px;
-  margin-top: 0rem;
+  margin-top: 25px;
   padding-bottom: 0;
   margin-bottom: 0;
 }
@@ -648,4 +650,8 @@ hr {
   margin-top: 10px;
   font-size: 16px;
   font-weight: bold;
+}
+
+.nav-top {
+  float: right;
 }
